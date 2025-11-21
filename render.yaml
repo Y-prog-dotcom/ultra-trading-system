@@ -1,0 +1,6 @@
+services:
+  - type: static_site
+    name: ultra-trading-system
+    env: static
+    buildCommand: echo "Static site"
+    staticPublishPath: .
